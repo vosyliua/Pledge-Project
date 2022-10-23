@@ -29,7 +29,8 @@ CREATE TABLE IF NOT EXISTS pledges(
   message VARCHAR(200) NOT NULL,
   causeid MEDIUMINT UNSIGNED,
   username VARCHAR(50) NOT NULL,
-  date VARCHAR(50) NOT NULL
+  date VARCHAR(50) NOT NULL,
+  donation mediumint NOT NULL
 
 );
 
