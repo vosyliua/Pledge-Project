@@ -38,7 +38,34 @@ header {
   transition: all 0.2s;
   background-color: white;
 }
+#donationDiv{
+  position: absolute;
+  right:36%;
+  box-shadow: 0 0.3125rem 1rem -0.1875rem rgb(0 0 0 / 20%);
+  border-radius: 0.75rem;
+  bottom:20%;
+  width: 30%;
+  text-align: center;
+  height:50%;
+}
 
+#messageSupport{
+  width: 60%;
+  height:30%;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+#donationInput{
+  width:40%;
+  height:10%;
+  font-size: 20px;
+}
+
+.donationAmount{
+  display: inline;
+  margin-right:10px;
+}
 .detailsButton:hover {
   color: rgb(255, 255, 255);
   background-color: rgb(0, 0, 0);
@@ -61,6 +88,27 @@ header {
   transition: all 0.2s;
   background-color: white;
   width:300px;
+}
+
+#donateButton{
+  margin-top: 20px;
+  padding: 20px;
+  border: 0.16em solid rgb(0, 0, 0);
+  border-radius: 2em;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: black;
+  text-shadow: 0 0.04em 0.04em rgba(255, 255, 255, 0.253);
+  transition: all 0.2s;
+  background-color: white;
+  width:300px;
+}
+
+#donateButton:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+
 }
 
 #pledgeButton:hover{

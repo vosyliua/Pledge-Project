@@ -118,12 +118,14 @@
 	</template>
 
 	<template id="donate">
-		<div>
+		<div id ="donationDiv">
 			<h1></h1>
 			<h2>Enter your donation</h2>
-			<input placeholder="amount in euros" id = "donationInput" type="number"></input>
+			<input class = "donationAmount" id = "donationInput" type="number"></input> 
+			<h2 class ="donationAmount"> Euros</h2>
 			<h2>Message of support</h2>
-			<textarea ></textarea>
+			<textarea id="messageSupport" ></textarea>
+			<button id="donateButton">Donate</button>
 		</div>
 	</template>
 	<template id="quote">
