@@ -24,5 +24,14 @@ CREATE TABLE IF NOT EXISTS causes(
   createdDate VARCHAR (100) NOT NULL
 );
 
+CREATE TABLE IF NOT EXISTS pledges(
+  id MEDIUMINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  message VARCHAR(200) NOT NULL,
+  causeid MEDIUMINT UNSIGNED,
+  username VARCHAR(50) NOT NULL,
+  date VARCHAR(50) NOT NULL
+
+);
+
 INSERT INTO accounts(user, pass,role)
 	VALUES("doej", "$2b$10$gL33obKAFUT5DK3pEbh72OIHztsWBniBBh.PdeKOrF1yr5KFAsdZO", "admin");

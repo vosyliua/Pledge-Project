@@ -34,5 +34,8 @@ export async function showSpecific(node){
     node.getElementById('mainDesc').innerText = data.data[0].description
     node.getElementById('sidebarMoney').innerText = data.data[0].money+ "€ Raised"
     node.getElementById('sidebarDeadline').innerText ="The Deadline is on " + data.data[0].deadline
+    node.getElementById('pledgeButton').addEventListener('click',function(){
+        loadPage('donate')
+    })
     
 }
